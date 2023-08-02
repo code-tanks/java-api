@@ -1,5 +1,3 @@
-
-
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
@@ -22,12 +20,12 @@ import java.util.HashMap;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import api.*;
+import api.BaseTank;
 import tanks.MyTank;
 
 public class Main {
 
-    static MyTank tank = new MyTank();
+    static BaseTank tank = MyTank.createTank();
 
     public static void main(String[] args) throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
