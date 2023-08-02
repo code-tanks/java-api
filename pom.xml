@@ -55,6 +55,11 @@
           </execution>
         </executions>
         <configuration>
+          <archive>
+              <manifest>
+                  <mainClass>Main</mainClass> <!-- replace with your main class -->
+              </manifest>
+          </archive>        
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
