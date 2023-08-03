@@ -31,6 +31,6 @@ jobs:
           file: .devcontainer/Dockerfile
           push: true
           platforms: linux/arm64, linux/amd64
-          tags: ghcr.io/code-tanks/code-tanks-javascript-devcontainer:latest
+          tags: ghcr.io/code-tanks/code-tanks-java-devcontainer:latest
           cache-from: type=registry,ref=ghcr.io/code-tanks/code-tanks-java-devcontainer:buildcache
           cache-to: type=registry,ref=ghcr.io/code-tanks/code-tanks-java-devcontainer:buildcache,mode=max
