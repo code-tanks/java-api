@@ -1,10 +1,10 @@
 {
-    "name": "codetanks-javascript-devcontainer",
-    // "image": "ghcr.io/code-tanks/code-tanks-javascript-devcontainer:latest",
-    "build": {
+    "name": "codetanks-java-devcontainer",
+    "image": "ghcr.io/code-tanks/code-tanks-java-devcontainer:latest",
+    // "build": {
         // "context": ".",
-        "dockerfile": "Dockerfile"
-    },
+        // "dockerfile": "Dockerfile"
+    // },
     "customizations": {
         "vscode": {
             "settings": {
