@@ -15,4 +15,6 @@ public class Command {
     static final int UNLOCK_GUN = 1 << 10;
     static final int LOCK_RADAR = 1 << 11;
     static final int UNLOCK_RADAR = 1 << 12;
+    static final int REQUEST_INFO = 1 << 13;
+    static final int CLEAR_COMMANDS = 1 << 14;
 }
