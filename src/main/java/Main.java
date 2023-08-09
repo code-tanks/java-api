@@ -25,7 +25,7 @@ import tanks.MyTank;
 
 public class Main {
 
-    static BaseTank tank = MyTank.createTank();
+    static BaseTank tank = new MyTank();
 
     public static void main(String[] args) throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
