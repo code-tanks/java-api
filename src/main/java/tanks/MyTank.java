@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 import api.BaseTank;
 
-public class Tank extends BaseTank {
-    public Tank() {
+public class MyTank extends BaseTank {
+    public MyTank() {
         System.out.println("Started MyTank..");
     }
 
